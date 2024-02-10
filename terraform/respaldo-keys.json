@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "respaldo-wannacry",
+  "private_key_id": "9411fdf3d12d08e2a37368b96afbc02ba6625b92",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCW2iGY5EbStQjU\nJtzYspzzDDFAoU3JcA7KBqDEp2WxfRf1zl9CoK48AgSu7knlLqU2ZlSnaW9PHsbl\nhAZxZ8BvbKaQDXfSHYsb26XR3H8w4W4gnmozHCNKQ9Qhl2LTgs+ApwQhkyPbrXQe\nmKV96/NNUoAz2QACpCyGVfo8VRRtKoFNG4YonzNkwpLtbm8NfWViOAxXEF1Engem\nAFwVsENZvArdCF390W6HwuUibZbzh+B4z4liDXMwXjR7yawb1XKZSbxFQ8kYHVrd\n64uJ5AY0CO2XkY8KArBt71Bh9R9LuwXXy+BoMhHX6K1NYI6Kx0+4Wih9wiKhglNw\nW7c0qgOlAgMBAAECggEABeVhscmeUQb9YNliAWA9zSwZUrbbRPfJxDCtIPKQAXdr\ns9JMm9yO4s6LY1Dx93CyyWUHgwGWdae0y2y1GcKd3V0IR5IXMFGySbT0jrbJC96L\nwN+gM/4yDOmIxYVWugCfXp5ohW1sVd46LyX1Ne4+dLO4Sg59txy2lsuOe8Qxh7C1\nvl30zlds74p/J7tCw8eMPsJ7Y1SjevbgR/6SRKriLav7+E50n5xwUeI+It0jtCQi\ndns/8PGiWYukAveZsV5BsUcunmOUXgmoo7iULCLbUpQCo0dYKcsWWvLGnnSaYtdZ\ndRHGcgR9gg/8XoifhnU7hr6J/rfT7YfP8Rl8+AyRMQKBgQDJMpiqBvgCJ0WVRz9o\ne/ZfXPdcseGVyphENVIAziBnmT5zXtuGwEg5BDmAlKSaENYuvEk3NaYeISsqbLvC\nlGOMWKubWHBeCMUMPv0oYL5gwaCkMkO6SI+Qce0GGCZVZ3vS/iUcgvOprHUJNNib\nCueUxhRXcoFxuCy+Tl9U0lxEbQKBgQC/8Pcsp40uC5/NAT0eJo8Q+7xMhaYHOp+/\np8N3yfhpnP7AfWIRDMIh8WqCRplosb0tWjYGmS6vo2nZ+efRi9ju2AqgF+5G3pIn\nzjtNjUkUY27PsCl1TD5KgYSB1SdnDhlKfpTfzMO56qPrZu+VpXnkOXl2XxJA8PSx\nLNYmXY2JGQKBgQCvclSYJ/2K+y39b6TGexqrrAj0pxU9Ju7Cw/BfTWAKlyJTPsuV\n5QTV2249RuGGi9oJ5Ry/bSQPsALROwI8OmPYldYHYAaUqXcTJ7ZgyIQbIZ3wsPhI\ncE/ouL/lCZgb72KV6hL4muTZ984TGicshETPgi9o1iw0u1MhHHybHdlhvQKBgDeG\nrwq1AeuTI0x8EkE5qGOiX4vHkgs/U11vW+W4gOuUpkHrQ8Zo6XRGUaiUYebenDqV\ngVGRWOcooAOV/xEoor4ds50yrxTDaIapa5B40e5bAYCFlsi/ILoPE9U3Y6m1c22Q\nhuLjaq/LCFaeNasV7tguJEwxHqe4zSDANsdsgvhpAoGAckXUK5nGKT5uj6dwK/Bq\nB++g8Nn4RmUb0L+GIty1XYdHDAb+O2EYYnPfY1K6BztXJWH1znloijgkKuXkLK/J\nDLfDA6lpTOsXkvtzDLRphFdpGKbscQuD1gszfsVMTqi818MGVo/tMlbUk4Rr8yA6\nJOKU6dyIJnPNX3C5y6spFLc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-service@respaldo-wannacry.iam.gserviceaccount.com",
+  "client_id": "115509186769230470633",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-service%40respaldo-wannacry.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

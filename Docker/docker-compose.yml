@@ -1,0 +1,65 @@
+version: "3.1"
+services:
+  base: 
+    build: 
+      context: bacula-base/
+      args:
+        - POSTGRESPASSWORD
+        - POSTGRESUSER
+        - POSTGRESDATABASE
+        - POSTGRESHOSTADDR
+        - POSTGRESPORT 
+        - GCSBUCKET
+        - GCSACCESSKEY
+        - GCSSECRETKEY
+        - GCSREGION
+    image: respaldo/bacula-base:latest
+    volumes:
+      - bacula-data:/opt/bacula/ 
+
+  bacula-dir:
+    build: bacula-dir/
+    image: respaldo/bacula-dir:latest
+    volumes:
+      - bacula-data:/opt/bacula/ 
+    ports:
+      - 9101:9101
+    restart: unless-stopped
+    depends_on:
+      - base
+      - bacula-sd
+
+  bacula-sd:
+    build: bacula-sd/
+    image: respaldo/bacula-sd:latest
+    volumes:
+      - bacula-data:/opt/bacula/ 
+    ports:
+      - 9103:9103
+    restart: unless-stopped
+    depends_on:
+      - base
+
+  bacula-api:
+    build: bacula-api/
+    image: respaldo/bacula-api:latest
+    volumes:
+      - bacula-data:/opt/bacula/ 
+    privileged: true
+    ports:
+      - 9096:9096
+    restart: unless-stopped
+    depends_on:
+      - base
+      - bacula-dir
+      - bacula-sd
+
+  bacula-web:
+    build: bacula-web/
+    image: respaldo/bacula-web:latest
+    ports:
+      - 9095:9095
+
+volumes:
+  bacula-data:
+
